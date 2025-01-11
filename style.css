@@ -7,7 +7,28 @@
 
 body {
   font-family: "Fira Sans", serif;
+  background-color: #f5f5f5;
 }
+
+/* --------------------SharedStyle------------------------ */
+.primary-title {
+  color: #0e0e0e;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.card-heading {
+  color: #0e0e0e;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 13px;
+  font-weight: 400;
+}
+
 /* --------------------Nav Style--------------- */
 
 #navigation {
@@ -84,4 +105,36 @@ nav .btn {
 #banner img {
   width: 404px;
   height: 341px;
+}
+
+/* ---------------------------MainStyle----------------------- */
+
+#pillar-bd {
+  width: 1091px;
+  height: 276px;
+  margin: 68px auto;
+}
+
+.pillar-bd-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 27px;
+}
+
+.pillar-bd-card {
+  background-color: #ffffff;
+  width: 257px;
+  height: 208px;
+  padding: 20px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 13px;
+}
+
+.pillar-bd-card img {
+  width: 54px;
+  margin-bottom: 20px;
+}
+
+.pillar-bd-card-details h5 {
+  margin-bottom: 10px;
 }
