@@ -355,3 +355,61 @@ article img {
   font-size: 13px;
   font-weight: 600;
 }
+
+/* ------------------DonateSection------------------ */
+
+#donate {
+  width: 1091px;
+  height: 395px;
+  margin: 68px auto;
+  text-align: center;
+}
+
+.donate-title {
+  margin-bottom: 20px;
+}
+
+.donation-amount {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 27px;
+}
+
+.donation-amount p {
+  color: #0e0e0e;
+  background-color: #ffffff;
+  padding: 34px;
+  border-radius: 13px;
+}
+
+.donation-amount .active-btn {
+  color: #0e0e0e;
+  background-color: #c6e4d6;
+  padding: 34px;
+  border-radius: 13px;
+}
+
+input[type="text"] {
+  width: 879px;
+  height: 54px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  text-align: center;
+}
+
+input::placeholder {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+}
+
+.donate-btn {
+  color: #ffffff;
+  background-color: #006a50;
+  margin-top: 27px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+}
