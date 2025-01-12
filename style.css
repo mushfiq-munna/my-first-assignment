@@ -221,7 +221,7 @@ nav .btn {
   margin-bottom: 10px;
 }
 
-/* QuoteSection */
+/* ---------------------QuoteSection-------------------- */
 
 .quote {
   background: url(./assets/quote-bg.png) no-repeat 20px 19px;
@@ -289,4 +289,69 @@ nav .btn {
 
 .fa-solid {
   margin-left: 8px;
+}
+
+/* --------------------RecentNewsStyle---------------- */
+
+#recent-news {
+  width: 1091px;
+  height: 1198px;
+  margin: 34px auto;
+}
+
+.news-details {
+  margin-top: 20px;
+}
+
+article {
+  width: 1091px;
+  height: 342px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-top: 27px;
+}
+
+.article-container {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  padding: 40px;
+}
+
+.news-img {
+  width: 347px;
+  height: 260px;
+  border-radius: 20px;
+}
+
+.news-title {
+  color: #0e0e0e;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+article img {
+  width: 114px;
+  height: 34px;
+  margin: 10px 0;
+}
+
+.article-time {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.article-btn {
+  color: #ffffff;
+  background-color: #006a50;
+  margin-top: 27px;
+  padding: 11px 22px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
 }
