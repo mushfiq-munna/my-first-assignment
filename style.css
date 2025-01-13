@@ -466,3 +466,26 @@ input[type="text"] {
   font-size: 15px;
   font-weight: 600;
 }
+
+/* ------------------footer style---------------- */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  width: 1364px;
+  height: 192px;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+footer div img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
