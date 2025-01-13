@@ -282,6 +282,11 @@ nav .btn {
   padding: 40px 20px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 13px;
+  transition: 0.2s;
+}
+
+.quote:hover {
+  box-shadow: 10px 10px 15px #dbdbdb, -10px -10px 15px #ffffff;
 }
 
 /* ----------------------------OpinionSection----------------------- */
